@@ -1,0 +1,21 @@
+{
+  "networks": {
+    "testnet": "access.testnet.nodes.onflow.org:9000"
+  },
+  "contracts": {
+    "DevdockReviews": "./contracts/DevdockReviews.cdc"
+  },
+  "accounts": {
+    "testnet-account": {
+      "address": "0x9d2ade18cb6bea1a",
+      "key": "YOUR_PRIVATE_KEY"
+    }
+  },
+  "deployments": {
+    "testnet": {
+      "testnet-account": [
+        "DevdockReviews"
+      ]
+    }
+  }
+}
