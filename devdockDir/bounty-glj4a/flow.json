@@ -1,0 +1,17 @@
+{
+  "networks": {
+    "emulator": "127.0.0.1:3569",
+    "mainnet": "access.mainnet.nodes.onflow.org:9000",
+    "testnet": "access.devnet.nodes.onflow.org:9000"
+  },
+  "contracts": {
+    "EventTicket": "./contracts/EventTicket.cdc",
+    "EventManager": "./contracts/EventManager.cdc"
+  },
+  "accounts": {
+    "emulator-account": {
+      "address": "f8d6e0586b0a20c7",
+      "key": "your-private-key"
+    }
+  }
+}

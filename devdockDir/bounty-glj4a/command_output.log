@@ -1,0 +1,11 @@
+
+Command: shopt -s histappend
+Output:
+
+Exit Code: 0
+----
+Command: git add README.md
+Output:
+fatal: pathspec 'README.md' did not match any files
+Exit Code: 128
+----
